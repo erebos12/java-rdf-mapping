@@ -1,0 +1,16 @@
+<!-- call URL https://www.w3.org/RDF/Validator/-->
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="Bayer AG">
+    <dc:street>Hauptstraße 1</dc:street> 
+    <dc:plz>43564</dc:plz> 
+    <dc:ort>Leverkusen</dc:ort> 
+  </rdf:Description>
+  <rdf:Description rdf:about="Allianz AG">
+    <dc:street>Müllerstraße 100</dc:street> 
+    <dc:plz>89654</dc:plz> 
+    <dc:ort>München</dc:ort> 
+  </rdf:Description>
+</rdf:RDF>
+  
