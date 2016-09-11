@@ -25,12 +25,12 @@
 </rdf:Property>
 
 <rdf:Property ID="email">  
-  <rdfs:range rdf:resource="http://www.datatypes.org/useful_types#String"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   <rdfs:domain rdf:resource="#Person"/>
 </rdf:Property>
 
 <rdf:Property ID="address">  
-  <rdfs:range rdf:resource="http://www.datatypes.org/useful_types#String"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   <rdfs:domain rdf:resource="#Person"/>
 </rdf:Property>
 

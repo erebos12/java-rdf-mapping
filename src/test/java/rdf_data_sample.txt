@@ -1,16 +1,18 @@
-<!-- call URL https://www.w3.org/RDF/Validator/-->
-<?xml version="1.0"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <rdf:Description rdf:about="Bayer AG">
-    <dc:street>Hauptstraße 1</dc:street> 
-    <dc:plz>43564</dc:plz> 
-    <dc:ort>Leverkusen</dc:ort> 
-  </rdf:Description>
-  <rdf:Description rdf:about="Allianz AG">
-    <dc:street>Müllerstraße 100</dc:street> 
-    <dc:plz>89654</dc:plz> 
-    <dc:ort>München</dc:ort> 
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://somewhere/MohamedLee/">
+  <rdf:Property rdf:about="http://somewhere/MohamedLee/age"/>
+  <rdf:Property rdf:about="http://somewhere/MohamedLee/ssn"/>
+  <rdf:Property rdf:about="http://somewhere/MohamedLee/address"/>
+  <rdf:Property rdf:about="http://somewhere/MohamedLee/email"/>
+  <rdf:Property rdf:about="http://somewhere/MohamedLee/name"/>
+  <rdf:Property rdf:about="http://somewhere/MohamedLee/maritalStatus"/>
+  <rdf:Description rdf:about="http://somewhere/MohamedLee">
+    <j.0:ssn>456423456</j.0:ssn>
+    <j.0:age>hhhhhhh</j.0:age>
+    <j.0:maritalStatus>nothing</j.0:maritalStatus>
+    <j.0:email>mohamed.lee@gmx.de</j.0:email>
+    <j.0:name>Mohamed Lee</j.0:name>
+    <j.0:address>Main Street 1</j.0:address>
   </rdf:Description>
 </rdf:RDF>
-  
