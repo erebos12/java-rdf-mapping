@@ -17,11 +17,14 @@ import org.junit.Test;
 
 public class JenaTest {
 	
-	public static String rdfSchemaFileLocation = "file:/home/erebos/sanbox/rdf-mapping/src/test/java/rdf_schema_sample.txt";
-	public static String rdfDataFileLocation = "file:/home/erebos/sanbox/rdf-mapping/src/test/java/rdf_data_sample.txt";
+	public String homeDir = System.getProperty("user.dir");
+	public String rdfSchemaFileLocation = "file:" + homeDir + "/src/test/java/rdf_schema_sample.txt";
+	public String rdfDataFileLocation = "file:" + homeDir + "/src/test/java/rdf_data_sample.txt";
 
 	@Test
 	public void test() throws Exception {
+		
+		System.out.println("user idr: " + homeDir);
 		// some definitions
 		String personURI = "http://somewhere/MohamedLee";
 		String name = "Mohamed Lee";
